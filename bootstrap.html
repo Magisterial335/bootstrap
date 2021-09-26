@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <title>Document</title>
+    <!-- Bootstrap's dependencies -->
+    <script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js'></script>
+
+
+    <script src='C:\Users\anoni\Desktop\course work\script.js'></script>
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css' rel='stylesheet'>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+    <script crossorigin='anonymous' src='https://kit.fontawesome.com/a5be14be8b.js'></script>
+</head>
+
+<body>
+<div class='container col-12'>
+    <!-- navbar -->
+    <nav class='navbar navbar-expand-lg navbar-light bg-dark'>
+        <a class='navbar-brand text-light' href='#'>SDA</a>
+        <button aria-controls='navBar' aria-expanded='false' aria-label='Toggle navigation'
+                class='navbar-toggler navbar-dark'
+                data-target='#navBar' data-toggle='collapse' type='button'>
+            <span class='navbar-toggler-icon'></span>
+        </button>
+        <div class='collapse navbar-collapse' id='navBar'>
+            <ul class='navbar-nav ml-auto'>
+                <li class='nav-item'>
+                    <a class='nav-link text-light' href='#'>Home</a>
+                </li>
+                <li class='nav-item dropdown'>
+                    <a aria-expanded='false' aria-haspopup='true' class='text-light nav-link dropdown-toggle'
+                       data-toggle='dropdown'
+                       href='#' id='navbarDropdown' role='button'>
+                        Courses
+                    </a>
+                    <div aria-labelledby='navbarDropdown' class='dropdown-menu'>
+                        <a class='dropdown-item' href='#'>Java</a>
+                        <a class='dropdown-item' href='#'>Javascript</a>
+                        <a class='dropdown-item' href='#'>Python</a>
+                    </div>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link text-white-50' href='#'>
+                        Events<span class='badge badge-light'>5</span>
+                    </a>
+                </li>
+                <li class='nav-item'>
+                    <a class='nav-link text-white-50' href='#'>Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- header -->
+    <div class='jumbotron'>
+        <h1 class='display-3'>Hungry for IT knowledge?</h1>
+        <p>Start your adventure with the most popular programming language and get practical skills in a few months
+        </p>
+        <a class='btn btn-primary' href='#' role='button'>Get more info</a>
+    </div>
+    <!-- body -->
+    <div class='row pl-5 pr-5'>
+        <!-- left side -->
+        <div class='container row col-12 col-md-7'>
+            <!-- 3 cards -->
+            <div class='col-4 d-flex flex-column align-items-center'>
+                    <span><i class='fas fa-user-cog fa-3x text-primary'></i>
+                    </span>
+                <p class='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis asperiores
+                    odio, laborum aliquam fugit repudiandae vero incidunt labore cupiditate.</p>
+            </div>
+            <div class='col-4 d-flex flex-column align-items-center'>
+                    <span><i class='fas fa-user-cog fa-3x text-primary'></i>
+                    </span>
+                <p class='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis asperiores
+                    odio, laborum aliquam fugit repudiandae vero incidunt labore cupiditate.</p>
+            </div>
+            <div class='col-4 d-flex flex-column align-items-center'>
+                    <span><i class='fas fa-user-cog fa-3x text-primary'></i>
+                    </span>
+                <p class='mt-3'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis asperiores
+                    odio, laborum aliquam fugit repudiandae vero incidunt labore cupiditate.</p>
+            </div>
+            <!-- second header -->
+            <div class='container'>
+                <p class='h1 border-bottom pb-4 mt-3'>Learn how to code and change your life!</p>
+            </div>
+            <!-- video -->
+            <div class='container'>
+                <div class='embed-responsive embed-responsive-16by9 mt-3'>
+                    <iframe class='embed-responsive-item' src='https://www.youtube.com/embed/USLoXTv-Nzs'></iframe>
+                </div>
+            </div>
+        </div>
+        <!-- right side -->
+        <div class='col-12 col-md-5'>
+            <!-- alert -->
+            <div class='alert alert-warning mt-5' role='alert'>
+                <button aria-label='Close' class='close' data-dismiss='alert' type='button'><span
+                        aria-hidden='true'>&times;</span></button>
+                <strong>We are using cookies!</strong> For more information see our privacy policy.
+            </div>
+            <!-- Card -->
+            <div class='card'>
+                <div class='card-header'>Student Zone</div>
+                <div class='card-body'>
+                    <div class='form-group'>
+                        <label for='email'>Email</label>
+                        <input aria-describedby='emailhelp' class='form-control' id='email'
+                               placeholder='Enter your email'
+                               type='email'>
+                    </div>
+                    <div class='form-group'>
+                        <label for='password'>Password</label>
+                        <input class='form-control' id='password' placeholder='Password' type='password'>
+                    </div>
+                    <div class='form-group form-check'>
+                        <input class='form-check-input' id='check' type='checkbox'>
+                        <label class='form-check-label' for='check'>Remember me</label>
+                    </div>
+                    <button class='btn btn-primary' type='submit'>Sign in</button>
+                </div>
+            </div>
+            <!-- progress bar -->
+            <div class='card mt-3'>
+                <div class='card-header'>Do you like our website?</div>
+                <div class='card-body'>
+                    <div class='progress'>
+                        <div class='progress-bar progress-bar-striped progress-bar-animated bg-success' id='yes'
+                             role='progressbar' style='width: 70%;'></div>
+                        <div class='progress-bar progress-bar-striped progress-bar-animated bg-danger' id='no'
+                             role='progressbar' style='width: 30%;'></div>
+                    </div>
+                    <div class='row mt-3'>
+                        <button class='btn btn-success col-2 offset-4 text-nowrap' id='btnYes' type='button'>Yes
+                        </button>
+                        <button class='btn btn-danger col-2 offset-1 text-nowrap' id='btnNo' type='button'>No</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='navbar navbar-light bg-dark mt-4'>
+        <ul class='nav list-unstyled'>
+            <li class='nav-item text-light'>Copyright © 2021 by Magisterial</li>
+        </ul>
+    </div>
+</div>
+</body>
